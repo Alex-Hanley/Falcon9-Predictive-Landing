@@ -7,6 +7,8 @@ https://www.linkedin.com/pulse/next-generation-rockets-exploring-reusability-cos
 
 Inspired by my love for space exploration and big data, I sourced SpaceX's reusable Falcon 9 rocket for the basis of this project. In this project, I used a logistical regression model to see if I could accurately predict the success of Falcon 9 booster landings using data such as payload mass, amount of flights of the booster, whether it was reused or not, and how far it flew. Note that the dataset used only included landings from 2013 to 2020. Nowadays, the Falcon 9 rocket has become uber-successfull, boasting a total success percentage of 96.2% (dating before 2013). But, a majority of these landings have taken place post-2022, as SpaceX partnered with Nasa for ISS/Deployment/General operations. 
 
+Aside from our model, I was also aiming to see if we could find indicators that would accurately predict the outcomes of our landing using visualized data. In the dataVisualization file, I compiled 
+5 graphs/plots using MathplotLib and Seaborn. In the results, we will address findings.
 
 # Why Logistical Regression?
 There are many reasons why I chose logistic regression for my model, including:
@@ -30,6 +32,13 @@ In this project, I created a confusion matrix to evaluate the strength of my mod
 # Results
 
 After testing and tuning of the model, I was able to achieve an accuracy of 83% on predicting the success of landings. Although it wasn't perfect, for the simplicity of the model, I consider it a huge success. While this number is not great in the perspective of multi-million dollar launches (that could contain humans on board in the future!), it is very high considering the randomness of these complex rockets.
+
+As for the visualized data, here are the conclusions we can reasonably make:
+1. Boosters that were resued had a higher chance of failing to land successfully.
+2. Weirdly enough, legs that had been reused had a much higher change of resulting in a successful landing than new ones.
+3. The payload mass of the rocket and whether the landing was successful are not correlated.
+
+Though these conclusions are purely from my naked eye, statistical methods couuld defintely be used to determine if there are actual correlations in these conclusions. That is for another time though!
 
 
 # Thanks
