@@ -7,7 +7,7 @@ https://www.linkedin.com/pulse/next-generation-rockets-exploring-reusability-cos
 
 Inspired by my love for space exploration and big data, I sourced SpaceX's reusable Falcon 9 rocket for the basis of this project. In this project, I used a logistical regression model to see if I could accurately predict the success of Falcon 9 booster landings using data such as payload mass, amount of flights of the booster, whether it was reused or not, and how far it flew. Note that the dataset used only included landings from 2013 to 2020. Nowadays, the Falcon 9 rocket has become uber-successful, boasting a total success percentage of 96.2% (dating before 2013). But, a majority of these landings have taken place post-2022, as SpaceX partnered with NASA for ISS/Deployment/General operations. 
 
-Aside from our model, I was also aiming to see if we could find indicators that would accurately predict the outcomes of our landing using visualized data. In the dataVisualization file, I compiled 
+Aside from our model, I was also aiming to see if we could find indicators that would accurately predict the outcomes of landings using visualized data. In the dataVisualization file, I compiled 
 5 graphs/plots using MathplotLib and Seaborn. In the results, we will address the findings.
 
 # Why Logistical Regression?
